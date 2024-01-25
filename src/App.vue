@@ -22,7 +22,7 @@ function m() {
             class="justify-between dark:invert m-4" alt="logo"></a>
         <!-- <h1 style="font-weight: 800;" class="p-3 text-3xl text-gray-300">Courses</h1> -->
         <button @click="m" id="menub" class="md:hidden justify-between">
-          <div class="container dark:invert m-4">
+          <div class="container dark:invert px-4">
             <div class="bar1">
               <hr class="border-2 bg-black border-black">
             </div>
@@ -51,21 +51,25 @@ function m() {
 
     <!---->
     <RouterView />
+    <div class="bar h-24"></div>
+    <header class=" flex justify-center space-x-10 p-2 text-white hiddenm">
+      <div class="front flex mb-20">
+        <div class="justify-center mr-20"><img alt="Vue logo" class="logo" src="/logo.webp" width="110" height="90" />
+        </div>
 
-    <header class="flex justify-center space-x-10 p-2 backdrop-blur-sm text-white hiddenm">
-      <div class="justify-center mr-20"><img alt="Vue logo" class="logo" src="/logo.webp" width="110" height="90" /></div>
+        <div class="my-auto">
 
-      <div class="my-auto">
-
-        <nav class="text-xl justify-center space-x-10">
-          <RouterLink to="/" class="p-2">About</RouterLink>
-          <RouterLink to="/about" class="p-2">Communities</RouterLink>
-          <RouterLink to="/about" class="p-2">The company</RouterLink>
-          <RouterLink to="/about" class="p-2">Contact us</RouterLink>
-          <a href="#" class="p-5 bg-orange-500 font-medium rounded-full">Get The App</a>
-        </nav>
+          <nav class="text-xl justify-center space-x-10">
+            <RouterLink to="/" class="p-2">About</RouterLink>
+            <RouterLink to="/about" class="p-2">Communities</RouterLink>
+            <RouterLink to="/about" class="p-2">The company</RouterLink>
+            <RouterLink to="/about" class="p-2">Contact us</RouterLink>
+            <a href="#" class="px-5 py-2 bg-orange-500 font-medium rounded-full">Get The App</a>
+          </nav>
+        </div>
       </div>
     </header>
+
 
     <RouterView />
     <div class="flex-col justify-center text-5xl space-y-5 p-5 md:mt-48 mt-12 mb-48 text-center text-white font-bold">
@@ -86,6 +90,20 @@ function m() {
   height: 100vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('/cargo.jpg') no-repeat center fixed;
   background-size: cover;
+
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent 100%);
+}
+
+.front {
+  z-index: 9999;
+  top: 0;
 }
 
 .notactive {

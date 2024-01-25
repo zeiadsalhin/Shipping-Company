@@ -15,19 +15,19 @@
         </div>
 
         <div class="images flex flex-wrap md:w-2/3 justify-center mx-auto text-center">
-            <div class="img w-32 h-22 m-2 p-5 shadow-xl bg-gray-200"><img class="mx-auto rounded-xl" width="50" height="100"
-                    src="/trust.svg">
+            <div class="img w-32 h-22 m-2 p-5 shadow-xl bg-gray-200  rounded-xl"><img class="mx-auto" width="50"
+                    height="100" src="/trust.svg">
                 <p class="py-2 text-md">TRUST</p>
             </div>
-            <div class="img w-32 h-22 m-2 p-5 shadow-xl bg-gray-200"><img class="mx-auto rounded-xl" width="50" height="100"
-                    src="/integrity.svg">
+            <div class="img w-32 h-22 m-2 p-5 shadow-xl bg-gray-200  rounded-xl"><img class="mx-auto" width="50"
+                    height="100" src="/integrity.svg">
                 <p class="py-2 text-sm">INTEGRITY</p>
             </div>
-            <div class="img w-32 h-22 m-2 p-5 shadow-2xl bg-gray-200"><img class="mx-auto rounded-xl" width="50"
+            <div class="img w-32 h-22 m-2 p-5 shadow-2xl bg-gray-200  rounded-xl"><img class="mx-auto" width="50"
                     height="100" src="/knowledge.svg">
                 <p class="py-2 text-sm">KNOWLEDGE</p>
             </div>
-            <div class="img w-32 h-22 m-2 p-5 shadow-2xl bg-gray-200"><img class="mx-auto rounded-xl" width="50"
+            <div class="img w-32 h-22 m-2 p-5 shadow-2xl bg-gray-200  rounded-xl"><img class="mx-auto" width="50"
                     height="100" src="/experience.svg">
                 <p class="py-2 text-sm">EXPERIENCE</p>
             </div>
