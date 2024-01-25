@@ -14,7 +14,7 @@
                 varius scelerisque at bibendum tortor ante a diam.</p>
         </div>
 
-        <div class="images flex flex-wrap md:w-2/3 w-11/12 mx-auto text-center">
+        <div class="images flex flex-wrap md:w-2/3 justify-center mx-auto text-center">
             <div class="img w-32 h-22 m-2 p-5 shadow-xl bg-gray-200"><img class="mx-auto" width="50" height="100"
                     src="/trust.svg">
                 <p class="py-2 text-md">TRUST</p>
