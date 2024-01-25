@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Playfair Display', serif;
+  background-color: #ebebeb;
 }
 html {
   scroll-behavior: smooth;
@@ -17,6 +18,10 @@ a,
 @media (hover: hover) {
   a:hover {
     background-color: hsla(25, 98%, 35%, 0.2);
+  }
+  button:hover {
+    background-color: hsla(25, 98%, 15%, 0.4);
+    transition: 0.5s;
   }
 }
 
