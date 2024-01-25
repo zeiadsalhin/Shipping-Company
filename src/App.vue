@@ -21,7 +21,7 @@ function m() {
         <a href="https://pactel.info" onclick=""> <img src="/logo.webp" width="60" height="60"
             class="justify-between dark:invert m-4" alt="logo"></a>
         <!-- <h1 style="font-weight: 800;" class="p-3 text-3xl text-gray-300">Courses</h1> -->
-        <button @click="m" id="menub" class="md:hidden justify-between">
+        <button @click="m" id="menub" class="md:hidden justify-between hover:bg-transparent">
           <div class="container dark:invert px-4">
             <div class="bar1">
               <hr class="border-2 bg-black border-black">
