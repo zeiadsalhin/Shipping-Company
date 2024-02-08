@@ -16,12 +16,13 @@ function m() {
 <template>
   <div class="head">
     <!--mob-->
-    <nav class="nav bg-gray-500 bg-transparent text-gray-200 md:hidden sticky top-0 z-10 justify-between font-semibold ">
+    <nav
+      class="nav bg-gray-500 bg-transparent text-gray-200 md:hidde mobile sticky top-0 z-10 justify-between font-semibold ">
       <div class="flex justify-between">
         <a href="https://pactel.info" onclick=""> <img src="/logo.webp" width="60" height="60"
             class="justify-between dark:invert m-4" alt="logo"></a>
         <!-- <h1 style="font-weight: 800;" class="p-3 text-3xl text-gray-300">Courses</h1> -->
-        <button @click="m" id="menub" class="md:hidden justify-between hover:bg-transparent">
+        <button @click="m" id="menub" class="md:hidde justify-between hover:bg-transparent">
           <div class="container dark:invert px-4">
             <div class="bar1">
               <hr class="border-2 bg-black border-black">
@@ -52,7 +53,7 @@ function m() {
     <!---->
     <RouterView />
     <div class="bar h-24"></div>
-    <header class=" flex justify-center space-x-10 p-2 text-white hiddenm">
+    <header class=" flex justify-center space-x-10 p-2 text-white hiddenm desktop">
       <div class="front flex mb-20">
         <div class="justify-center mr-20"><img alt="Vue logo" class="logo" src="/logo.webp" width="110" height="90" />
         </div>
